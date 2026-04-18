@@ -1,10 +1,10 @@
 body {
-  background-color: #f9f7fe;
-  font-family: Helvetica, Arial, sans-serif;
+  background-color: #a17653;
+  font-family: Arial, sans-serif;
 }
 
 a {
-  color: purple;
+  color: #6c38ea;
 }
 
 .container {
@@ -21,12 +21,12 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: #272044;
+  color: white;
 }
 
 form {
   padding: 30px;
-  background-color: white;
+  background-color: #455238;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
   display: flex;
@@ -40,12 +40,12 @@ form {
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color: #272044;
+  color: #455238;
 }
 
 .submit-button {
   margin-left: 10px;
-  background: purple;
+  background: #a17653;
   color: white;
   border: none;
   width: 150px;
@@ -59,7 +59,7 @@ form {
   background-color: #fff;
   padding: 20px;
   line-height: 1.5;
-  border-left: 3px solid #885df1;
+  border-left: 3px solid #455238;
   box-shadow: 0px 20px 60px rgba(39, 33, 66, 0.03);
 }
 
@@ -67,4 +67,5 @@ footer {
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
+  color: white;
 }
