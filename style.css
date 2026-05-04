@@ -63,6 +63,10 @@ form {
   box-shadow: 0px 20px 60px rgba(39, 33, 66, 0.03);
 }
 
+.hidden {
+  display: none;
+}
+
 .recipe strong {
   color: #a17653;
 }
@@ -72,4 +76,19 @@ footer {
   font-size: 13px;
   margin-top: 30px;
   color: white;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
