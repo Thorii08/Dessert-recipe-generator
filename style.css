@@ -1,10 +1,10 @@
 body {
-  background-color: #a17653;
-  font-family: Arial, sans-serif;
+  background-color: #d7e3bb;
+  font-family: "Playfair Display", serif;
 }
 
 a {
-  color: #6c38ea;
+  color: #1b3913;
 }
 
 .container {
@@ -21,12 +21,12 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: white;
+  color: #4f641f;
 }
 
 form {
   padding: 30px;
-  background-color: #455238;
+  background-color: #4f641f;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
   display: flex;
@@ -35,7 +35,7 @@ form {
 
 .instructions {
   padding: 16px;
-  border: 1px sold rgba(39, 33, 66, 0.5);
+  border: 1px sold rgba(190, 241, 241, 0.5);
   width: 80%;
   font-size: 16px;
   border-radius: 50px;
@@ -45,8 +45,8 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background: #a17653;
-  color: white;
+  background: #dfeb9f;
+  color: #646f2d;
   border: none;
   width: 150px;
   font-size: 16px;
@@ -75,7 +75,7 @@ footer {
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
-  color: white;
+  color: #66703f;
 }
 
 .generating {
